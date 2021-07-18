@@ -32,7 +32,7 @@ require_once "../modelos/Negocio.php";
          folder instead of downloading all of them to reduce the load. -->
     <link rel="stylesheet" href="../public/css/_all-skins.min.css">
     <link rel="apple-touch-icon" href="../public/img/apple-touch-icon.png">
-    <link rel="shortcut icon" href="../public/img/favicon.ico">
+    <link rel="shortcut icon" href="../public/img/icono.png"> <!-- Icono -->
 
     <!-- DATATABLES -->
     <link rel="stylesheet" type="text/css" href="../public/datatables/jquery.dataTables.min.css">    
@@ -86,7 +86,7 @@ require_once "../modelos/Negocio.php";
       <!-- mini logo for sidebar mini 50x50 pixels -->
       <span class="logo-mini"><b>SIS</b> V</span>
       <!-- logo for regular state and mobile devices -->
-      <span class="logo-lg"><b>SIS</b> VENTAS</span>
+      <span class="logo-lg"> GMC <b>POS</b></span>
     </a>
     <!-- Header Navbar: style can be found in header.less -->
     <nav class="navbar navbar-static-top">
