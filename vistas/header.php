@@ -286,7 +286,9 @@ if ($_SESSION['consultav']==1) {
 ?>
 
         <li><a href="ayuda.php"><i class="fa fa-question-circle"></i> <span>Ayuda</span><small class="label pull-right bg-yellow">PDF</small></a></li>
-        <li><a href="https://www.compartiendocodigos.com/"><i class="fa  fa-exclamation-circle"></i> <span>Acerca de</span><small class="label pull-right bg-yellow">ComCod</small></a></li>
+
+        
+
         <li><a href="#"><i class="fa  fa-exclamation-circle"></i> <span>Version</span><small class="label pull-right bg-green">1.0.0</small></a></li>   
         
       </ul>

@@ -2,7 +2,7 @@
     <div class="pull-right hidden-xs">
       <b>Version</b> 1.0.0
     </div>
-    <strong>Copyright &copy; 2020-2021 <a target="_blank" href="https://www.compartiendocodigos.com">CompartiendoCódigos</a></strong> Todo los derechos
+    <strong>Copyright &copy; 2021-2024 <a href="#">GMC</a></strong> Todo los derechos
     reservados.
   </footer>
 

@@ -36,9 +36,10 @@
               escribanos:
             </div>
             <ul>
-              <li><i class="fa fa-envelope"></i> Correo: soporte@compartiendocodigos.com</li>
-              <li><i class="fa fa-whatsapp"></i> WhatsApp: +51 983 680 492</li>
+              <li><i class="fa fa-envelope"></i> Correo: irving_cob@hotmail.com</li>
+              <li><i class="fa fa-whatsapp"></i> WhatsApp: +52 996 108 97 79</li>
             </ul>
+            Todo correo de este deberá ser con el asunto "Detalles en el sistema"
             <!-- /.box-body -->
           </div>
           <!-- /.box -->
@@ -59,11 +60,12 @@
             <div class="box-body" style="">
               Para sugerencia de cambios en el sistema o implementación de nuevos módulos
               escribanos:
+              </div>
               <ul>
-                <li><i class="fa fa-envelope"></i> Correo: info@compartiendocodigos.com</li>
-              <li><i class="fa fa-whatsapp"></i> WhatsApp: +51 983 680 492</li>
+                <li><i class="fa fa-envelope"></i> Correo: irving_cob@hotmail.com</li>
+              <li><i class="fa fa-whatsapp"></i> WhatsApp: +52 996 108 97 79</li>
               </ul>
-              Todo correo de este deberá ser con el asunto "Sugerencia-sisventas"
+              Todo correo de este deberá ser con el asunto "Sugerencia en el sistema"
             </div>
             <!-- /.box-body -->
           </div>
@@ -75,7 +77,7 @@
       </div>
       </div>
       <!-- /.box -->
-
+        
     </section>
     <!-- /.content -->
   </div>
