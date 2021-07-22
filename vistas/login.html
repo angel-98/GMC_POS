@@ -15,7 +15,10 @@
     <link rel="stylesheet" href="../public/css/AdminLTE.min.css">
     <!-- iCheck -->
     <link rel="stylesheet" href="../public/css/blue.css">
-    <link rel="shortcut icon" href="../public/img/icono.png"> <!-- Icono -->
+    <link rel="shortcut icon" href="../public/img/favicon.ico">
+    <link rel="stylesheet" href="../public/css/blue.css">
+    <link rel="stylesheet" href="../public/css/login.css">
+
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -24,34 +27,52 @@
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body class="hold-transition login-page">
-    <div class="login-box">
-      <div class="login-logo">
-       <a href="index.html">GMC <b>POS</b></a>
-      </div><!-- /.login-logo -->
-      <div class="login-box-body">
-        <p class="login-box-msg">Ingrese sus datos de Acceso</p>
-        <form method="post" id="frmAcceso">
-          <div class="form-group has-feedback">
-            <input type="text" id="logina" name="logina" class="form-control" placeholder="Usuario">
-            <span class="fa fa-user form-control-feedback"></span>
+  <body >
+    <div class="container">
+      <div class="col-sm-8 col-sm-offset-2 main">
+        <div class="col-sm-6 left-side">
+      </div><!--col-sm-6-->
+  
+         <div class="col-sm-8 right-side">
+          <div class="text-center">
+            <img src="../public/img/iconoL.png" style="width: 40%;"  class="rounded float-right" alt="Responsive image" >
           </div>
-          <div class="form-group has-feedback">
-            <input type="password" id="clavea" name="clavea" class="form-control" placeholder="Password">
-            <span class="fa fa-key form-control-feedback"></span>
-          </div>
-          <div class="row">
-            <div class="col-xs-8">
-              
-            </div><!-- /.col -->
-            <div class="col-xs-4">
-              <button type="submit" class="btn btn-primary btn-block btn-flat">Ingresar</button>
-            </div><!-- /.col -->
-          </div>
-        </form>        
 
-      </div><!-- /.login-box-body -->
-    </div><!-- /.login-box -->
+            <h1>Iniciar Sesión</h1>
+            <div><legend></legend></div>
+            <p>Bienvenidos al punto de venta GMC, ingrese sus credenciales correspondientes.</p>
+    
+<!--Form with header-->
+         <form method="post" id="frmAcceso">
+            <div class="form">
+               <div class="form-group has-feedback">
+                    <input type="text" id="logina" name="logina" class="form-control" placeholder="Usuario">
+                    <span class="fa fa-user form-control-feedback"></span>
+                </div>
+                <div class="form-group has-feedback">
+                    <input type="password" id="clavea" name="clavea" class="form-control" placeholder="Password">
+                    <span class="fa fa-key form-control-feedback"></span>
+                </div>
+                  <div class="row">
+                    <div class="col-xs-8">
+                      
+                    </div><!-- /.col -->
+                      <div class="col-xs-4">
+                        <button type="submit" class="btn btn-primary btn-block btn-flat">Ingresar</button>
+                    </div><!-- /.col -->
+             </div>
+          </form>
+<!--/Form -->
+    </div><!--col-sm-6-->
+        </div><!--col-sm-8-->
+        
+        </div><!--container-->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <!-- <script src="form1.js"></script> -->
+   
+    <script src="js/bootstrap.min.js"></script>
+  <
 
     <!-- jQuery -->
     <script src="../public/js/jquery-3.1.1.min.js"></script>
@@ -64,4 +85,7 @@
 
 
   </body>
+  <style type="text/css">
+    
+  </style>
 </html> 
