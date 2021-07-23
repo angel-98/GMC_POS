@@ -1,6 +1,6 @@
   <footer class="main-footer">
     <div class="pull-right hidden-xs">
-      <b>Version</b> 1.0.0
+     <!-- <b>Version</b> 1.0.0--> 
     </div>
     <strong>Copyright &copy; 2021-2024 <a href="#">GMC</a></strong> Todo los derechos
     reservados.

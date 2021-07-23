@@ -19,7 +19,7 @@ require_once "../modelos/Negocio.php";
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <title><?php echo $nombrenegocio; ?> | Sis</title>
+   <title><?php echo $nombrenegocio; ?> | POS</title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <!-- Bootstrap 3.3.5 -->
@@ -70,23 +70,15 @@ require_once "../modelos/Negocio.php";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 
-<!-- Your customer chat code -->
-<div class="fb-customerchat"
-  attribution=setup_tool
-  page_id="280144326139427"
-  theme_color="#0084ff"
-  logged_in_greeting="Hola! deseas compartir algún sistema o descargar ?"
-  logged_out_greeting="Hola! deseas compartir algún sistema o descargar ?">
-</div>
 <div class="wrapper">
 
   <header class="main-header">
     <!-- Logo -->
     <a href="escritorio.php" class="logo">
       <!-- mini logo for sidebar mini 50x50 pixels -->
-      <span class="logo-mini"><b>SIS</b> V</span>
+      <span class="logo-mini">GMC <b>POS</b></span>
       <!-- logo for regular state and mobile devices -->
-      <span class="logo-lg"> GMC <b>POS</b></span>
+      <span class="logo-lg"> GMC | <b>POS</b></span>
     </a>
     <!-- Header Navbar: style can be found in header.less -->
     <nav class="navbar navbar-static-top">
@@ -235,7 +227,6 @@ if ($_SESSION['configuracion']==1) {
                 </span>
               </a>
               <ul class="treeview-menu">
-                <li><a href="negocio.php"><i class="fa fa-circle-o"></i> Datos Generales</a></li>
                 <li><a href="comprobantes.php"><i class="fa fa-circle-o"></i> Comprobantes </a></li>
                 <li><a href="tipopago.php"><i class="fa fa-circle-o"></i> Tipos de pago </a></li>
               </ul>
@@ -245,28 +236,9 @@ if ($_SESSION['configuracion']==1) {
 
     <li class="header">Reportes</li>   
 
-<?php 
-if ($_SESSION['escritorio']==1) {
-      echo ' <li><a href="escritorio1.php"><i class="fa  fa-bar-chart"></i> <span>Gráficos</span></a>
-            </li>';
-}
-?>
 
-<?php 
-if ($_SESSION['consultac']==1) {
-    echo '<li class="treeview">
-            <a href="#">
-              <i class="fa fa-bar-chart"></i> <span>Consulta Compras</span>
-              <span class="pull-right-container">
-                <i class="fa fa-angle-left pull-right"></i>
-              </span>
-            </a>
-            <ul class="treeview-menu">
-              <li><a href="comprasfecha.php"><i class="fa fa-circle-o"></i>Compras por fechas</a></li>
-            </ul>
-          </li>';
-}
-?>  
+
+
               
 <?php 
 if ($_SESSION['consultav']==1) {
@@ -285,7 +257,7 @@ if ($_SESSION['consultav']==1) {
 }
 ?>
 
-        <li><a href="ayuda.php"><i class="fa fa-question-circle"></i> <span>Ayuda</span><small class="label pull-right bg-yellow">PDF</small></a></li>
+        <li><a href="ayuda.php"><i class="fa fa-question-circle"></i> <span>Ayuda</span><small class="label pull-right bg-yellow">?</small></a></li>
 
         
 

@@ -11,9 +11,7 @@
       <div class="box">
 <div class="box-header with-border">
   <h1 class="box-title">Soporte o sugerencias de cambio </h1>
-  <div class="box-tools pull-right">
-      <a href="Manual_usuario.pdf" target="_blank"><button class="btn btn-success"> <i class="fa  fa-file-pdf-o"></i> <span> Manual de usuario</span></button></a>
-  </div>
+  
 </div>
 <!--box-header-->
 <!--centro-->
